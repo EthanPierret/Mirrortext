@@ -1,0 +1,30 @@
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.short {
+    width: 3em;
+}
+
+form {
+width: 50%;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.article {
+    width: 50%;
+}

@@ -4,8 +4,8 @@
 
     document.querySelector("body").addEventListener("keyup", function(event) {
         
-        document.querySelector(".red").innerHTML = document.getElementById("message").value;
-        document.querySelector(".blue").innerHTML = document.getElementById("message").value;
+        document.querySelector(".red").textContent = document.getElementById("message").value;
+        document.querySelector(".blue").textContent = document.getElementById("message").value;
         console.log(document.getElementById("message").value);
     })
 
